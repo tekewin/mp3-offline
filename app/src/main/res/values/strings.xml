@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MP3 Offline</string>
+
+    <!-- Library -->
+    <string name="library">Library</string>
+    <string name="artists">Artists</string>
+    <string name="playlists">Playlists</string>
+    <string name="songs">Songs</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Songs, artists or albums</string>
+    <string name="clear_search">Clear search</string>
+    <string name="no_results">No matches for “%1$s”</string>
+    <string name="appearance">Appearance</string>
+    <string name="rescan">Rescan Music folder</string>
+    <!-- e.g. "Music folder · 9 artists · 142 songs" -->
+    <string name="library_summary">Music folder · %1$s · %2$s</string>
+    <string name="empty_library_title">No MP3s found</string>
+    <string name="empty_library_body">Copy .mp3 files into Internal storage › Music (sub-folders are fine), then rescan.</string>
+    <string name="play_all_by">Play all by %1$s</string>
+    <string name="unknown_album">Unknown album</string>
+
+    <!-- Artist / playlist pages -->
+    <string name="back">Back</string>
+    <string name="play_all">Play all</string>
+    <string name="play">Play</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="songs_az">Songs · A–Z</string>
+    <string name="more_options_for">More options for %1$s</string>
+    <string name="play_only_this">Play just this song</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="remove_from_playlist">Remove from playlist</string>
+    <string name="playlist_label">Playlist</string>
+    <string name="playlist_options">Playlist options</string>
+    <string name="rename">Rename</string>
+    <string name="delete_playlist">Delete playlist</string>
+    <string name="empty_playlist">This playlist is empty. Add songs from any song’s ⋮ menu or from Now playing.</string>
+    <string name="empty_playlists">No playlists yet. Create one, then add songs from any song’s ⋮ menu.</string>
+    <string name="new_playlist">New playlist</string>
+    <string name="count_added">%1$s · added</string>
+
+    <!-- Dialogs -->
+    <string name="rename_playlist">Rename playlist</string>
+    <string name="playlist_name">Playlist name</string>
+    <string name="create">Create</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="delete">Delete</string>
+    <string name="delete_playlist_title">Delete “%1$s”?</string>
+    <string name="delete_playlist_body">The playlist is removed. Your songs stay on this device.</string>
+    <string name="theme_system">Match system</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <!-- Player -->
+    <string name="now_playing">Now playing</string>
+    <string name="playing_from">Playing from</string>
+    <string name="close_player">Close player</string>
+    <string name="cover_art">Cover art</string>
+    <string name="pause">Pause</string>
+    <string name="next_song">Next song</string>
+    <string name="previous_song">Previous song</string>
+    <string name="seek">Song position</string>
+    <string name="shuffle_on">Shuffle is on</string>
+    <string name="shuffle_off">Shuffle is off</string>
+    <string name="repeat_off">Repeat is off</string>
+    <string name="repeat_all">Repeating all</string>
+    <string name="repeat_one">Repeating this song</string>
+    <string name="up_next">Up next</string>
+
+    <!-- First run -->
+    <string name="permission_title">Your music.\nNo signal needed.</string>
+    <string name="music_folder_path">Internal storage › Music</string>
+    <string name="permission_body">MP3 Offline plays the MP3s in %1$s. Allow access to audio files so it can build your library.</string>
+    <string name="promise_offline">No internet permission. Nothing ever leaves your phone.</string>
+    <string name="promise_no_tracking">No accounts, ads or tracking.</string>
+    <string name="promise_local_playlists">Playlists are saved only on this device.</string>
+    <string name="permission_blocked">Access to music is turned off. Open Settings › Permissions › Music and audio and choose Allow.</string>
+    <string name="allow_access">Allow access to music</string>
+    <string name="open_settings">Open settings</string>
+    <string name="permission_footnote">You can change this any time in Android Settings.</string>
+
+    <!-- Lengths -->
+    <string name="length_minutes">%1$d min</string>
+    <string name="length_hours">%1$d hr %2$d min</string>
+
+    <plurals name="song_count">
+        <item quantity="one">%1$d song</item>
+        <item quantity="other">%1$d songs</item>
+    </plurals>
+    <plurals name="artist_count">
+        <item quantity="one">%1$d artist</item>
+        <item quantity="other">%1$d artists</item>
+    </plurals>
+    <plurals name="pruned_one_playlist">
+        <item quantity="one">%1$d missing song removed from %2$s</item>
+        <item quantity="other">%1$d missing songs removed from %2$s</item>
+    </plurals>
+    <plurals name="pruned_many_playlists">
+        <item quantity="one">%1$d missing song removed from your playlists</item>
+        <item quantity="other">%1$d missing songs removed from your playlists</item>
+    </plurals>
+</resources>

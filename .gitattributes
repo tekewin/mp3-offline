@@ -1,0 +1,11 @@
+* text=auto
+
+# Shell scripts must keep LF, batch files CRLF, whatever the OS.
+gradlew text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+
+*.jar binary
+*.png binary
+*.jpg binary
+*.mp3 binary
