@@ -11,3 +11,5 @@
 *.jks
 *.keystore
 keystore.properties
+/dist/
+/_first-release.bat
