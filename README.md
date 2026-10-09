@@ -10,6 +10,12 @@ A private, offline MP3 player for Android phones and tablets.
 - Light and dark themes (follows the system, or choose in **Appearance**)
 - No internet permission, no analytics, no accounts, no ads
 
+<p>
+  <img src="docs/screenshots/artists.jpg" alt="Library, Artists tab: artists A–Z with initials tiles, song counts and a play button for each" width="300">
+  &nbsp;
+  <img src="docs/screenshots/playlists.jpg" alt="Library, Playlists tab: two playlists with song counts and lengths, and the mini player at the bottom" width="300">
+</p>
+
 ## Install on your phone or tablet (USB)
 
 MP3 Offline isn't on the Play Store. You install it yourself from a file called an **APK**, which takes about 5 minutes.
